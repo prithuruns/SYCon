@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Sponsors"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_designation" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="70dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/dtpl" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="70dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/cognizant" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="70dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/infiniti" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/coda" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/bluestar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/tech_mahindra" />
+
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/se" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/asialogo" />
+
+        </TableRow>
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/partners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Partners"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_designation" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/download" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/your_story" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+            android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/book" />
+
+            <ImageView
+                android:layout_width="@dimen/sponsor_icon_width"
+                android:layout_height="@dimen/sponsor_icon_height"
+                android:layout_weight="0.5"
+                android:src="@drawable/seven_up" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

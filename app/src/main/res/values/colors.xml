@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#ffeb3b</color>
+
+    <!-- Colors required for countdown timer-->
+    <color name="councilhomepageicon">#71920e</color>
+    <color name="councilhomepageicontouched">#aadd32</color>
+    <color name="seethrough">#00ffeeb5</color>
+    <color name="darkertext">#ff2d2d2d</color>
+
+
+    <color name="teal">#009688</color>
+    <color name="black_87">#DD000000</color>
+    <color name="black_54">#89000000</color>
+</resources>

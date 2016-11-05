@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/speakersarchivestext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speakers"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_size_designation"
+        android:textColor="@color/colorPrimary"/>
+
+    <ScrollView
+        android:id="@+id/speakersarchives"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname1"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname2"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 2"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname3"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 3"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname4"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 4"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname5"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 5"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname6"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 6"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname7"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 7"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage8"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname8"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 8"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollViewspeakersarchives9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                    android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                    <ImageView
+                        android:id="@+id/speakersarchivesimage9"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp" />
+
+                    <Button
+                        android:id="@+id/speakersarchivesname9"
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_archives_speaker_profiles"
+                        android:text="Speaker 9"
+                        android:textColor="#0097a7"
+                        android:textSize="@dimen/text_size_profile_text" />
+
+
+                </TableRow>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

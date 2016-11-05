@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/about_us_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:text="About Us"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_designation" />
+
+        <ImageButton
+            android:id="@+id/about_us_lakshya_location"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/location"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/about_us_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/about_us_lakshya"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:src="@drawable/coverpicblack" />
+
+            <TextView
+                android:id="@+id/about_us_lakshya_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The SSN Entrepreneurship Development Cell “Lakshya” was formed a few years ago with a handful of enthusiasts and has evolved over its short lifespan into a powerful student body that boasts of 700+ members, all of whom are active participants in various entrepreneurial activities undertaken by Lakshya. Lakshya has always aimed at celebrating the evergreen spirit of entrepreneurship by conducting a plethora of events that kindles the entrepreneurial spirit within students. Ever since its inception it has had a profound impact on the lives and thinking of the “Young India”. Our E-cell lifted the prestigious E-week India trophy during the years 2010 and 2011 under the guidance of the National Entrepreneurship Network (NEN), a Dr. Romesh Wadhwani foundation, and were adjudged runners-up for the same during the years 2012 and 2013."
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <ImageButton
+                    android:id="@+id/about_us_lakshya_facebook"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/facebooklink_icon" />
+
+                <ImageButton
+                    android:id="@+id/about_us_lakshya_website"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="25dp"
+                    android:padding="10dp"
+                    android:src="@drawable/webiconsmall" />
+
+            </TableRow>
+
+
+            <ImageView
+                android:id="@+id/about_us_sycon"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:src="@drawable/sycon_logo_black" />
+
+            <TextView
+                android:id="@+id/about_us_sycon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SYCon is SSN's very own youth conference conducted annually as part of the Entrepreneurship week. SYCon is primarily a conference where students get to interact with an eminent list of speakers from various strata of society. The conference focuses on inculcating entrepreneurship and leadership."
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/about_us_sycon_facebook"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/facebooklink_icon" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

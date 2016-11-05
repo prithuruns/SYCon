@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_span="8"
+                    android:gravity="center"
+                    android:text="SCHEDULE"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_designation" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="9:00-9:20"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:clickable="false"
+                    android:text="Krish Subramanian"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="9:25-9:45"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Pashupathy Gopalan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="9:50-10:10"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Venugopal Chandrasekar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="10:15-10:35"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/event_discussion_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/abc_text_size_display_1_material"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:gravity="center"
+                    android:text="Panel Discussion"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimaryDark" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="10:40-10:55"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/event_break_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/abc_text_size_display_1_material"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:gravity="center"
+                    android:text="Tea Break"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimaryDark" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="11:00-11:20"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Neerja Malik"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="11:25-11:45"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:textAllCaps="false"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Archana TFI"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="11:50-12:10"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Shekar Dattatri"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="12:15-12:35"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/event_discussion_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/abc_text_size_display_1_material"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:gravity="center"
+                    android:text="Panel Discussion"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimaryDark" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="12:40-1:20"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/event_break_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/abc_text_size_display_1_material"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:gravity="center"
+                    android:text="Lunch Break"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimaryDark" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="1:25-2:05"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="BAND"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="2:15-2:35"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Narayana Peesapaty"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="2:40-3:00"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <Button
+                    android:id="@+id/event_speaker_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:background="@drawable/register_button"
+                    android:elegantTextHeight="false"
+                    android:text="Jay Palazhi"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_profile_text"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_tablerow_schedule_bottom"
+                android:layout_marginTop="@dimen/margin_tablerow_schedule_top">
+
+                <TextView
+                    android:id="@+id/event_timings_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:text="3:05-3:25"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:id="@+id/event_discussion_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/abc_text_size_display_1_material"
+                    android:layout_column="1"
+                    android:layout_span="7"
+                    android:gravity="center"
+                    android:text="Panel Discussion"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorPrimaryDark" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

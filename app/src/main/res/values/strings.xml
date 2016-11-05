@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sycon</string>
+
+    <!-- Default values being used,
+    Speaker profile -->
+    <string name="profile_text">After (un)graduating ohboih ogpihgp iygiygy yugpiyg igyi hkggh ut of iit Madras as an engine rrblkhbkgkgfhgfkhgdk hgd  lkhgufgf ljhgjhgljh gjg jhjhv jhgjvh jhvjhv hhjv hvjhv jhvjvohv khfdkhgdkhgdkhgdhkgdkhbkg jhf jhb iufgboiaf iudshfpiuewgfpwe oigdbfpibrf ohbiphbv oihbvhbvf hbdvpibv khdhbkhb;khb;kh</string>
+    <string name="profile_name">Rajendran Dandapani</string>
+    <string name="profile_designation">Founder, Zoho</string>
+    <string name="register">REGISTER</string>
+
+    <string name="twitter_logged_in_title">Succesfully Logged in through twitter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
